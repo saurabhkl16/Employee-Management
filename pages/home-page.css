@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  height: 100vh;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h4,
+h5 {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+.home-page {
+  background-color: rgb(226, 225, 225);
+}
+
+a:hover {
+  color: black;
+}
+
+input {
+  border: none;
+  padding: 5px;
+  background-color: rgb(226, 225, 225);
+  margin-right: 30px;
+}
+
+input:focus {
+  outline: none;
+  outline: rgb(22, 149, 204);
+}
+
+/* =================================================== */
+
+aside {
+  height: 100vh;
+  width: 250px;
+  background-color: rgb(22, 149, 204);
+  color: white;
+
+  .sidebar-top-section {
+    height: 100px;
+  }
+
+  a {
+    height: 60px;
+  }
+}
+
+/* ============================================================ */
+
+.right-content {
+  flex: 1;
+}
+
+.navbar {
+  height: 50px;
+  background-color: rgb(22, 149, 204);
+}
+
+/* ================================================================= */
+
+.search-box {
+  height: 120px;
+  background-color: white;
+}
+
+.employee-table {
+  max-height: 455px; /* approx 10 rows */
+  overflow-y: auto;
+
+  .material-symbols-outlined:hover {
+    cursor: pointer;
+    color: rgb(22, 149, 204);
+  }
+}
