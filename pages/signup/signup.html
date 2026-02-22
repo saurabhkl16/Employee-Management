@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="signup.css" />
+    <title>Signup</title>
+  </head>
+  <body>
+    <div class="signup-page shadow p-3 mb-5 bg-white rounded">
+      <h2>Sign Up</h2>
+      <div class="fullname-section d-flex flex-column mt-3 w-100">
+        <label for="FullName">Name</label>
+        <input
+          type="text"
+          class="fullname"
+          id="FullName"
+          placeholder="Enter your full name"
+        />
+      </div>
+      <div class="username-section d-flex flex-column mt-3 w-100">
+        <label for="UserName">Email</label>
+        <input
+          type="email"
+          class="username"
+          id="UserName"
+          placeholder="Enter your email"
+        />
+      </div>
+      <div class="mobile-number-section d-flex flex-column mt-3 w-100">
+        <label for="MobNumber">Mobile No</label>
+        <input
+          type="text"
+          class="mob-number"
+          id="MobNumber"
+          placeholder="Enter your mobile number"
+        />
+      </div>
+      <div class="password-section d-flex flex-column mt-3 w-100">
+        <label for="PassWord">Password</label>
+        <input
+          type="password"
+          class="password"
+          id="PassWord"
+          placeholder="Enter your password"
+        />
+      </div>
+      <div class="d-flex w-100">
+        <button
+          class="login-button btn btn-success mt-4 w-100"
+          id="LoginButton"
+        >
+          LogIn
+        </button>
+        <button
+          class="signup-button btn btn-primary mt-4 w-100"
+          id="SignupButton"
+        >
+          Register
+        </button>
+      </div>
+    </div>
+    <script src="signup.js"></script>
+  </body>
+</html>

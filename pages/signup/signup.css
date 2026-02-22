@@ -1,16 +1,12 @@
-/* =======================  CSS Reset  ======================== */
-
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
   min-height: 100vh;
-  background-image: url("assets/bg.jpg");
+  background-image: url("../../assets/bg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -22,38 +18,29 @@ body {
   align-items: center;
 }
 
-.d-flex {
-  display: flex;
-  flex-direction: column;
-}
-
 input {
   padding: 5px;
 }
 
-a {
-  text-decoration: none;
-}
 
-label {
-  font-size: 15px;
-}
+/* =================================================== */
 
-h2 {
-  font-weight: 900;
-}
-
-/* =======================  END  ======================== */
-
-.login-page {
+.signup-page {
   /* border: 1px solid black; */
   background-color: white;
   width: 400px;
-  height: 400px;
+  height: 500px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px;
+}
+
+button {
+  margin-inline: 10px;
+  border: none;
+  padding: 10px;
+  font-weight: 700;
 }
