@@ -61,6 +61,7 @@ aside {
 /* ============================================================ */
 
 .right-content {
+  background-color: white;
   flex: 1;
 }
 
@@ -72,7 +73,6 @@ aside {
 /* ================================================================= */
 
 .main-content {
-  background-color: white;
   min-height: 85vh;
 
   label {
