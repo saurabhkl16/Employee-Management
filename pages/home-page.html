@@ -25,128 +25,142 @@
 
   <body>
     <div class="home-page d-flex">
-      <aside>
-        <div
-          class="sidebar-top-section d-flex flex-column justify-content-center align-items-center"
-        >
-          <img src="../assets/employee.png" alt="sidebar-logo" height="50px" />
-          <h4>EMPLOYEE MANAGER</h4>
-        </div>
-        <hr />
-        <div class="sidebar-links">
-          <ul class="mt-5">
-            <li>
-              <a href="home-page.html" class="d-flex ms-5"
-                ><span class="material-symbols-outlined me-3"> home </span>
-                <h5>Home</h5>
-              </a>
-            </li>
-            <li>
-              <a href="" class="d-flex ms-5"
-                ><span class="material-symbols-outlined me-3">
-                  diversity_3
-                </span>
-                <h5>Attendance</h5>
-              </a>
-            </li>
-            <li>
-              <a href="" class="d-flex ms-5"
-                ><span class="material-symbols-outlined me-3">
-                  accessibility
-                </span>
-                <h5>Discipline</h5>
-              </a>
-            </li>
-            <li>
-              <a href="" class="d-flex ms-5"
-                ><span class="material-symbols-outlined me-3">
-                  manage_accounts
-                </span>
-                <h5>Administration</h5>
-              </a>
-            </li>
-            <li>
-              <a href="" class="d-flex ms-5"
-                ><span class="material-symbols-outlined me-3">
-                  currency_rupee_circle
-                </span>
-                <h5>Payroll</h5>
-              </a>
-            </li>
-            <li>
-              <a href="" class="d-flex ms-5"
-                ><span class="material-symbols-outlined me-3">
-                  assignment
-                </span>
-                <h5>Report</h5>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <hr />
-        <div class="bottom">
-          <ul class="mt-5">
-            <li>
-              <a href="" class="d-flex ms-5"
-                ><span class="material-symbols-outlined me-3"> logout </span>
-                <h5>Logout</h5>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </aside>
-      <div class="right-content">
+      <div class="main-div w-100">
         <div class="navbar">
-          <ul class="d-flex justify-content-between w-100">
-            <li class="ms-3">
+          <ul
+            class="d-flex justify-content-between align-items-center w-100 m-0"
+          >
+            <li class="d-flex ms-3">
               <a href="" class=""
-                ><span class="material-symbols-outlined me-3"> menu </span>
+                ><span class="material-symbols-outlined me-3 mt-1"> menu </span>
               </a>
+              <h4>EMPLOYEE MANAGER</h4>
             </li>
             <li class="me-3">
               <a href="" class=""
-                ><span class="material-symbols-outlined me-3">
+                ><span class="material-symbols-outlined me-3 mt-1">
                   account_circle
                 </span>
               </a>
             </li>
           </ul>
         </div>
-        <div class="main-content mx-3">
-          <div class="search-box mt-3 p-3">
-            <h5>Employee Search</h5>
-            <div class="d-flex mt-3">
-              <div>
-                <!-- <label for="EmployeeId"></label> -->
-                <input
-                  type="text"
-                  id="EmployeeId"
-                  placeholder="Enter employee id"
-                />
-              </div>
-              <div>
-                <!-- <label for="EmployeeName"></label> -->
-                <input
-                  type="text"
-                  id="EmployeeName"
-                  placeholder="Enter employee id"
-                />
+        <div class="main-content d-flex">
+          <aside class="mt-3">
+            <div
+              class="sidebar-top-section d-flex flex-column justify-content-center align-items-center"
+            >
+              <img
+                src="../assets/employee.png"
+                alt="sidebar-logo"
+                height="50px"
+                id="employeepng"
+              />
+            </div>
+            <hr />
+            <div class="sidebar-links">
+              <ul class="mt-5">
+                <li>
+                  <a href="home-page.html" class="d-flex ms-5"
+                    ><span class="material-symbols-outlined me-3"> home </span>
+                    <h5>Home</h5>
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="d-flex ms-5"
+                    ><span class="material-symbols-outlined me-3">
+                      diversity_3
+                    </span>
+                    <h5>Attendance</h5>
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="d-flex ms-5"
+                    ><span class="material-symbols-outlined me-3">
+                      accessibility
+                    </span>
+                    <h5>Discipline</h5>
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="d-flex ms-5"
+                    ><span class="material-symbols-outlined me-3">
+                      manage_accounts
+                    </span>
+                    <h5>Administration</h5>
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="d-flex ms-5"
+                    ><span class="material-symbols-outlined me-3">
+                      currency_rupee_circle
+                    </span>
+                    <h5>Payroll</h5>
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="d-flex ms-5"
+                    ><span class="material-symbols-outlined me-3">
+                      assignment
+                    </span>
+                    <h5>Report</h5>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <hr />
+            <div class="bottom">
+              <ul class="pt-3">
+                <li>
+                  <a href="../index.html" class="d-flex ms-5"
+                    ><span class="material-symbols-outlined me-3">
+                      logout
+                    </span>
+                    <h5>Logout</h5>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </aside>
+          <div class="right-content mx-3">
+            <div class="search-box mt-3 p-3">
+              <p>Employee Search</p>
+              <div class="d-flex justify-content-between mt-3">
+                <div>
+                  <input
+                    type="text"
+                    id="EmployeeId"
+                    placeholder="Enter employee id"
+                  />
+                  <input
+                    type="text"
+                    id="EmployeeName"
+                    placeholder="Enter employee id"
+                  />
+                </div>
+                <div>
+                  <button class="btn btn-primary create-employee" id="CreateBtn">
+                    Create Employee
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="employee-table mt-3">
-            <table class="table">
-              <thead class="table-primary">
-                <tr>
-                  <th scope="col">ID</th>
-                  <th scope="col">Email</th>
-                  <th scope="col">Name</th>
-                  <th scope="col">Position</th>
-                  <th scope="col">Actions</th>
-                </tr>
-              </thead>
-              <tbody id="employeeTableBody"></tbody>
-            </table>
+            <div class="employee-table mt-3">
+              <table class="table">
+                <thead class="table-primary">
+                  <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Company Email</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Age</th>
+                    <th scope="col">Position</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Actions</th>
+                  </tr>
+                </thead>
+                <tbody id="employeeTableBody"></tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>

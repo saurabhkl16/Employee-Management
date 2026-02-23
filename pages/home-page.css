@@ -8,10 +8,11 @@
 
 body {
   height: 100vh;
+  overflow-y: hidden;
 }
 
 a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
@@ -26,10 +27,6 @@ ul {
 
 .home-page {
   background-color: rgb(226, 225, 225);
-}
-
-a:hover {
-  color: black;
 }
 
 input {
@@ -50,15 +47,37 @@ aside {
   height: 100vh;
   width: 250px;
   background-color: rgb(22, 149, 204);
-  color: white;
+  color: black;
 
   .sidebar-top-section {
     height: 100px;
+    /* background-color: white; */
+  }
+
+  .sidebar-links {
+    a {
+      color: white;
+    }
+    a:hover {
+      padding-left: 2px;
+      color: black;
+    }
   }
 
   a {
     height: 60px;
   }
+}
+
+.bottom {
+  background-color: rgb(22, 149, 204);
+  a {
+    color: black;
+  }
+}
+
+.bottom a:hover {
+  color: black;
 }
 
 /* ============================================================ */
@@ -70,6 +89,15 @@ aside {
 .navbar {
   height: 50px;
   background-color: rgb(22, 149, 204);
+
+  a,
+  h4 {
+    color: white;
+  }
+
+  a:hover {
+    color: black;
+  }
 }
 
 /* ================================================================= */
@@ -77,14 +105,33 @@ aside {
 .search-box {
   height: 120px;
   background-color: white;
+
+  p {
+    color: rgb(22, 149, 204);
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .create-employee {
+    border: none;
+    background-color: rgb(22, 149, 204);
+  }
 }
 
 .employee-table {
   max-height: 455px; /* approx 10 rows */
   overflow-y: auto;
+  text-align: center;
 
   .material-symbols-outlined:hover {
     cursor: pointer;
     color: rgb(22, 149, 204);
+  }
+
+  .table-primary {
+    th {
+      background-color: rgb(22, 149, 204);
+      color: white;
+    }
   }
 }

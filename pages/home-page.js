@@ -1,8 +1,9 @@
 const tableBody = document.getElementById("employeeTableBody");
 const positions = ["Developer", "HR", "Manager", "Tester", "Designer"];
 const employees = [];
+const createBtn = document.getElementById("CreateBtn");
 
-// create 50 employee objects
+// ===============  create 50 employee objects  =======================
 for (let i = 1; i <= 50; i++) {
   employees.push({
     id: i,
@@ -21,7 +22,9 @@ function renderEmployees(data) {
         <th scope="row">${emp.id}</th>
         <td>${emp.email}</td>
         <td>${emp.name}</td>
+        <td>24</td>
         <td>${emp.position}</td>
+        <td>Active</td>
         <td>
             <span class="material-symbols-outlined" id="editEmployee"> edit </span>
             <span class="material-symbols-outlined" id="copyEmployee"> content_copy </span>
@@ -35,6 +38,14 @@ function renderEmployees(data) {
 }
 renderEmployees(employees);
 
+// ============== Open Create page ========
+
+createBtn.addEventListener("click", (e) => {
+  e.preventDefault();
+  window.location.href = "copy/copy.html";
+});
+
+// ============== Handeling Actions ========
 
 const editEmployee = document.getElementById("editEmployee");
 const copyEmployee = document.getElementById("copyEmployee");
