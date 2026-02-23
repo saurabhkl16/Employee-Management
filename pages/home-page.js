@@ -86,3 +86,15 @@ tableBody.addEventListener("click", (e) => {
     window.location.href = "copy/copy.html";
   }
 });
+
+const searchInput = document.getElementById("SearchEmployeeId");
+
+searchInput.addEventListener("input", function () {
+  const value = this.value.toLowerCase();
+
+  const filteredEmployees = employees.filter((emp) =>
+    emp.id.toString().includes(value),
+  );
+
+  renderEmployees(filteredEmployees);
+});
