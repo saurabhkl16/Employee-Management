@@ -1,0 +1,12 @@
+================   Array methods   ======================
+
+1=> Map method:- creates a new array by applying a function to each element of the original array.
+                 Can not change orignal array.
+
+2=> forEach method:-  Change Orignal array.
+                      >> employees.forEach((emp) => {
+                      >> emp["surname"] = "";
+                      >> emp["mobile"] = "";
+                      >> emp["status"] = "Active";
+                      >> });
+                      >> console.log(employees);

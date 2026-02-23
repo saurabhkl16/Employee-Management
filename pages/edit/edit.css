@@ -41,6 +41,14 @@ input:focus {
   outline: rgb(22, 149, 204);
 }
 
+button {
+  background-color: rgb(22, 149, 204) !important;
+}
+
+#employeeId:hover {
+  cursor: not-allowed;
+}
+
 /* =================================================== */
 
 aside {

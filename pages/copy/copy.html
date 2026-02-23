@@ -28,13 +28,14 @@
       <div class="main-div w-100">
         <div class="navbar">
           <ul class="d-flex justify-content-between w-100">
-            <li class="ms-3">
-              <a href="" class=""
+            <li class="d-flex ms-3">
+              <a href="" class="mt-1"
                 ><span class="material-symbols-outlined me-3"> menu </span>
               </a>
+              <h4 class="text-white">EMPLOYEE MANAGER</h4>
             </li>
             <li class="me-3">
-              <a href="" class=""
+              <a href="" class="mt-1"
                 ><span class="material-symbols-outlined me-3">
                   account_circle
                 </span>
@@ -52,7 +53,6 @@
                 alt="sidebar-logo"
                 height="50px"
               />
-              <!-- <h4>EMPLOYEE MANAGER</h4> -->
             </div>
             <hr />
             <div class="sidebar-links">
@@ -125,6 +125,16 @@
             <form id="copyForm" class="copy-form mt-4">
               <div class="copy-employee">
                 <div class="d-flex flex-column m-3">
+                  <label for="employeeId">Employee Id</label>
+                  <input
+                    type="text"
+                    id="employeeId"
+                    placeholder="Enter employee id"
+                    disabled
+                    required
+                  />
+                </div>
+                <div class="d-flex flex-column m-3">
                   <label for="name">Name</label>
                   <input
                     type="text"
@@ -139,15 +149,6 @@
                     type="text"
                     id="surname"
                     placeholder="Enter your surname"
-                    required
-                  />
-                </div>
-                <div class="d-flex flex-column m-3">
-                  <label for="employeeId">Employee Id</label>
-                  <input
-                    type="text"
-                    id="employeeId"
-                    placeholder="Enter employee id"
                     required
                   />
                 </div>
@@ -175,6 +176,7 @@
                     type="text"
                     id="employeeMobile"
                     placeholder="Enter your number"
+                    maxlength="10"
                     required
                   />
                 </div>
@@ -187,6 +189,6 @@
         </class>
       </div>
     </div>
-    <script src="copy.js"></script>
+    <script type="module" src="copy.js"></script>
   </body>
 </html>
