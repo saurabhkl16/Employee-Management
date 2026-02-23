@@ -22,30 +22,35 @@
     <div class="login-page shadow-lg p-3 mb-5 bg-white rounded">
       <h2>LogIn</h2>
       <p>Login to access you account</p>
-      <div class="username-section d-flex mt-3 w-100">
-        <label for="UserName">Username / Email</label>
-        <input
-          type="email"
-          class="username"
-          id="UserName"
-          placeholder="Enter your email"
-        />
-      </div>
-      <div class="password-section d-flex mt-3 w-100">
-        <label for="PassWord">Password</label>
-        <input
-          type="password"
-          class="password"
-          id="PassWord"
-          placeholder="Enter your password"
-        />
-      </div>
-      <button
-        class="login-page-button btn btn-success mt-4 w-100"
-        id="LoginButton"
-      >
-        LogIn
-      </button>
+      <form id="LoginForm" class="w-100">
+        <div class="username-section d-flex mt-3 w-100">
+          <label for="UserName">Username / Email</label>
+          <input
+            type="email"
+            class="username"
+            id="UserName"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+        <div class="password-section d-flex mt-3 w-100">
+          <label for="PassWord">Password</label>
+          <input
+            type="password"
+            class="password"
+            id="PassWord"
+            placeholder="Enter your password"
+            required
+          />
+        </div>
+        <button
+          type="submit"
+          class="login-page-button btn btn-success mt-4 w-100"
+          id="LoginButton"
+        >
+          LogIn
+        </button>
+      </form>
       <div class="links mt-3">
         <a href="pages/signup/signup.html" class="me-2">Sign Up</a>
         <a href="" class="me-2 text-danger">Forgot Password ?</a>

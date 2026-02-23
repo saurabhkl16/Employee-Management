@@ -1,17 +1,7 @@
-const tableBody = document.getElementById("employeeTableBody");
-const positions = ["Developer", "HR", "Manager", "Tester", "Designer"];
-const employees = [];
-const createBtn = document.getElementById("CreateBtn");
+import { employees } from "./employee-data.js";
 
-// ===============  create 50 employee objects  =======================
-for (let i = 1; i <= 50; i++) {
-  employees.push({
-    id: i,
-    email: `employee${i}@company.com`,
-    name: `Employee ${i}`,
-    position: positions[i % positions.length],
-  });
-}
+const tableBody = document.getElementById("employeeTableBody");
+const createBtn = document.getElementById("CreateBtn");
 
 function renderEmployees(data) {
   tableBody.innerHTML = "";
