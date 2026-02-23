@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  height: 100vh;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h4,
+h5 {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+.edit-page {
+  background-color: rgb(226, 225, 225);
+}
+
+a:hover {
+  color: black;
+}
+
+input {
+  padding: 5px;
+}
+
+input:focus {
+  outline: none;
+  outline: rgb(22, 149, 204);
+}
+
+/* =================================================== */
+
+aside {
+  height: 100vh;
+  width: 250px;
+  background-color: rgb(22, 149, 204);
+  color: white;
+
+  .sidebar-top-section {
+    height: 100px;
+  }
+
+  a {
+    height: 60px;
+  }
+}
+
+/* ============================================================ */
+
+.right-content {
+  flex: 1;
+}
+
+.navbar {
+  height: 50px;
+  background-color: rgb(22, 149, 204);
+}
+
+/* ================================================================= */
+
+.main-content {
+  background-color: white;
+  min-height: 85vh;
+
+  label {
+    margin-bottom: 2px;
+    font-weight: 500;
+  }
+
+  .edit-employee {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  h4 {
+    color: rgb(22, 149, 204);
+  }
+}
