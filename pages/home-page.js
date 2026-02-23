@@ -1,7 +1,6 @@
 const tableBody = document.getElementById("employeeTableBody");
-const employees = [];
-
 const positions = ["Developer", "HR", "Manager", "Tester", "Designer"];
+const employees = [];
 
 // create 50 employee objects
 for (let i = 1; i <= 50; i++) {
@@ -24,9 +23,9 @@ function renderEmployees(data) {
         <td>${emp.name}</td>
         <td>${emp.position}</td>
         <td>
-            <span class="material-symbols-outlined"> edit </span>
-            <span class="material-symbols-outlined"> content_copy </span>
-            <span class="material-symbols-outlined"> delete </span>
+            <span class="material-symbols-outlined" id="editEmployee"> edit </span>
+            <span class="material-symbols-outlined" id="copyEmployee"> content_copy </span>
+            <span class="material-symbols-outlined text-danger"> delete </span>
         </td>
       </tr>
     `;
@@ -35,3 +34,15 @@ function renderEmployees(data) {
   });
 }
 renderEmployees(employees);
+
+
+const editEmployee = document.getElementById("editEmployee");
+const copyEmployee = document.getElementById("copyEmployee");
+
+editEmployee.addEventListener("click", () => {
+  window.location.href = "edit/edit.html";
+});
+
+copyEmployee.addEventListener("click", () => {
+  window.location.href = "copy/copy.html";
+});
