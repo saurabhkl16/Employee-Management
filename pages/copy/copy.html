@@ -25,77 +25,7 @@
 
   <body>
     <div class="copy-page d-flex">
-      <aside>
-        <div
-          class="sidebar-top-section d-flex flex-column justify-content-center align-items-center"
-        >
-          <img src="../../assets/employee.png" alt="sidebar-logo" height="50px" />
-          <h4>EMPLOYEE MANAGER</h4>
-        </div>
-        <hr />
-        <div class="sidebar-links">
-          <ul class="mt-5">
-            <li>
-              <a href="../home-page.html" class="d-flex ms-5"
-                ><span class="material-symbols-outlined me-3"> home </span>
-                <h5>Home</h5>
-              </a>
-            </li>
-            <li>
-              <a href="" class="d-flex ms-5"
-                ><span class="material-symbols-outlined me-3">
-                  diversity_3
-                </span>
-                <h5>Attendance</h5>
-              </a>
-            </li>
-            <li>
-              <a href="" class="d-flex ms-5"
-                ><span class="material-symbols-outlined me-3">
-                  accessibility
-                </span>
-                <h5>Discipline</h5>
-              </a>
-            </li>
-            <li>
-              <a href="" class="d-flex ms-5"
-                ><span class="material-symbols-outlined me-3">
-                  manage_accounts
-                </span>
-                <h5>Administration</h5>
-              </a>
-            </li>
-            <li>
-              <a href="" class="d-flex ms-5"
-                ><span class="material-symbols-outlined me-3">
-                  currency_rupee_circle
-                </span>
-                <h5>Payroll</h5>
-              </a>
-            </li>
-            <li>
-              <a href="" class="d-flex ms-5"
-                ><span class="material-symbols-outlined me-3">
-                  assignment
-                </span>
-                <h5>Report</h5>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <hr />
-        <div class="bottom">
-          <ul class="mt-5">
-            <li>
-              <a href="" class="d-flex ms-5"
-                ><span class="material-symbols-outlined me-3"> logout </span>
-                <h5>Logout</h5>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </aside>
-      <div class="right-content">
+      <div class="main-div w-100">
         <div class="navbar">
           <ul class="d-flex justify-content-between w-100">
             <li class="ms-3">
@@ -112,71 +42,150 @@
             </li>
           </ul>
         </div>
-        <div class="main-content m-3 p-3">
-          <h4>Create Employee</h4>
-          <hr/>
-          <form id="copyForm" class="copy-form mt-4">
-            <div class="copy-employee">
-              <div class="d-flex flex-column m-3">
-                <label for="name">Name</label>
-                <input
-                  type="text"
-                  id="name"
-                  placeholder="Enter your name"
-                  required
-                />
-              </div>
-              <div class="d-flex flex-column m-3">
-                <label for="surname">Surname</label>
-                <input
-                  type="text"
-                  id="surname"
-                  placeholder="Enter your surname"
-                  required
-                />
-              </div>
-              <div class="d-flex flex-column m-3">
-                <label for="employeeId">Employee Id</label>
-                <input
-                  type="text"
-                  id="employeeId"
-                  placeholder="Enter employee id"
-                  required
-                />
-              </div>
-              <div class="d-flex flex-column m-3">
-                <label for="employeePosition">Employee Position</label>
-                <input
-                  type="text"
-                  id="employeePosition"
-                  placeholder="Enter position"
-                  required
-                />
-              </div>
-              <div class="d-flex flex-column m-3">
-                <label for="employeeEmail">Email ID</label>
-                <input
-                  type="email"
-                  id="employeeEmail"
-                  placeholder="Enter your emial"
-                  required
-                />
-              </div>
-              <div class="d-flex flex-column m-3">
-                <label for="employeeMobile">Mobile Number</label>
-                <input
-                  type="text"
-                  id="employeeMobile"
-                  placeholder="Enter your number"
-                  required
-                />
-              </div>
+        <class class="main-content d-flex mt-3">
+          <aside>
+            <div
+              class="sidebar-top-section d-flex flex-column justify-content-center align-items-center"
+            >
+              <img
+                src="../../assets/employee.png"
+                alt="sidebar-logo"
+                height="50px"
+              />
+              <h4>EMPLOYEE MANAGER</h4>
             </div>
-            <div class="d-flex justify-content-end mt-5">
-              <button type="submit" class="btn btn-primary">Submit</button>
+            <hr />
+            <div class="sidebar-links">
+              <ul class="mt-5">
+                <li>
+                  <a href="../home-page.html" class="d-flex ms-5"
+                    ><span class="material-symbols-outlined me-3"> home </span>
+                    <h5>Home</h5>
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="d-flex ms-5"
+                    ><span class="material-symbols-outlined me-3">
+                      diversity_3
+                    </span>
+                    <h5>Attendance</h5>
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="d-flex ms-5"
+                    ><span class="material-symbols-outlined me-3">
+                      accessibility
+                    </span>
+                    <h5>Discipline</h5>
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="d-flex ms-5"
+                    ><span class="material-symbols-outlined me-3">
+                      manage_accounts
+                    </span>
+                    <h5>Administration</h5>
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="d-flex ms-5"
+                    ><span class="material-symbols-outlined me-3">
+                      currency_rupee_circle
+                    </span>
+                    <h5>Payroll</h5>
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="d-flex ms-5"
+                    ><span class="material-symbols-outlined me-3">
+                      assignment
+                    </span>
+                    <h5>Report</h5>
+                  </a>
+                </li>
+              </ul>
             </div>
-          </form>
-        </div>
+            <hr />
+            <div class="bottom">
+              <ul class="mt-5">
+                <li>
+                  <a href="" class="d-flex ms-5"
+                    ><span class="material-symbols-outlined me-3">
+                      logout
+                    </span>
+                    <h5>Logout</h5>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </aside>
+
+          <div class="right-content mx-3 p-3">
+            <h4>Create Employee</h4>
+            <hr />
+            <form id="copyForm" class="copy-form mt-4">
+              <div class="copy-employee">
+                <div class="d-flex flex-column m-3">
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter your name"
+                    required
+                  />
+                </div>
+                <div class="d-flex flex-column m-3">
+                  <label for="surname">Surname</label>
+                  <input
+                    type="text"
+                    id="surname"
+                    placeholder="Enter your surname"
+                    required
+                  />
+                </div>
+                <div class="d-flex flex-column m-3">
+                  <label for="employeeId">Employee Id</label>
+                  <input
+                    type="text"
+                    id="employeeId"
+                    placeholder="Enter employee id"
+                    required
+                  />
+                </div>
+                <div class="d-flex flex-column m-3">
+                  <label for="employeePosition">Employee Position</label>
+                  <input
+                    type="text"
+                    id="employeePosition"
+                    placeholder="Enter position"
+                    required
+                  />
+                </div>
+                <div class="d-flex flex-column m-3">
+                  <label for="employeeEmail">Email ID</label>
+                  <input
+                    type="email"
+                    id="employeeEmail"
+                    placeholder="Enter your emial"
+                    required
+                  />
+                </div>
+                <div class="d-flex flex-column m-3">
+                  <label for="employeeMobile">Mobile Number</label>
+                  <input
+                    type="text"
+                    id="employeeMobile"
+                    placeholder="Enter your number"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="d-flex justify-content-end mt-5">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+          </div>
+        </class>
       </div>
     </div>
     <script src="copy.js"></script>

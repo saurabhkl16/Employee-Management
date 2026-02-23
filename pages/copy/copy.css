@@ -24,7 +24,7 @@ ul {
   padding: 0;
 }
 
-.edit-page {
+.copy-page {
   background-color: rgb(226, 225, 225);
 }
 
@@ -62,6 +62,7 @@ aside {
 
 .right-content {
   flex: 1;
+  background-color: white;
 }
 
 .navbar {
@@ -72,7 +73,6 @@ aside {
 /* ================================================================= */
 
 .main-content {
-  background-color: white;
   min-height: 85vh;
 
   label {
