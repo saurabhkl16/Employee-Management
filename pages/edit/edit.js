@@ -10,6 +10,7 @@ const editForm = document.getElementById("editForm");
 const editEmp = JSON.parse(localStorage.getItem("editEmployee"));
 
 // ============ Set input values of edit employee =============
+console.log(editEmp);
 employeeName.value = editEmp.name;
 employeeSurname.value = editEmp.surname;
 employeeId.value = editEmp.id;
@@ -31,6 +32,7 @@ editForm.addEventListener("submit", (e) => {
     status: "Active",
   };
   localStorage.setItem("editedEmployee", JSON.stringify(editedEmploye));
+  console.log(employeePosition.value);
   // employees.forEach((emp) => {
   //   if (emp.id == employeeId.value) {
   //     emp.name = employeeName.value;

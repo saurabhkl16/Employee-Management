@@ -9,6 +9,7 @@ const createEmploye = JSON.parse(localStorage.getItem("createEmploye"));
 function setEditedTabledata() {
   employees.forEach((emp) => {
     if (editedEmp && emp.id == editedEmp.id) {
+      console.log(localStorage);
       emp.name = editedEmp.name;
       emp.surname = editedEmp.surname;
       emp.email = editedEmp.email;

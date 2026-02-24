@@ -3,7 +3,7 @@ export const employees = [
         "id": 1,
         "email": "employee1@company.com",
         "name": "Employee 1",
-        "position": "HR",
+        "position": "Hr",
         "surname": "",
         "mobile": "",
         "status": "Active"
@@ -30,7 +30,7 @@ export const employees = [
         "id": 4,
         "email": "employee4@company.com",
         "name": "Employee 4",
-        "position": "Designer",
+        "position": "Ui Designer",
         "surname": "",
         "mobile": "",
         "status": "Active"
@@ -39,7 +39,7 @@ export const employees = [
         "id": 5,
         "email": "employee5@company.com",
         "name": "Employee 5",
-        "position": "Developer",
+        "position": "Front-end Devoloper",
         "surname": "",
         "mobile": "",
         "status": "Active"
@@ -48,7 +48,7 @@ export const employees = [
         "id": 6,
         "email": "employee6@company.com",
         "name": "Employee 6",
-        "position": "HR",
+        "position": "Hr",
         "surname": "",
         "mobile": "",
         "status": "Active"
@@ -75,7 +75,7 @@ export const employees = [
         "id": 9,
         "email": "employee9@company.com",
         "name": "Employee 9",
-        "position": "Designer",
+        "position": "Ui Designer",
         "surname": "",
         "mobile": "",
         "status": "Active"
@@ -84,7 +84,7 @@ export const employees = [
         "id": 10,
         "email": "employee10@company.com",
         "name": "Employee 10",
-        "position": "Developer",
+        "position": "Front-end Devoloper",
         "surname": "",
         "mobile": "",
         "status": "Active"
@@ -93,7 +93,7 @@ export const employees = [
         "id": 11,
         "email": "employee11@company.com",
         "name": "Employee 11",
-        "position": "HR",
+        "position": "Hr",
         "surname": "",
         "mobile": "",
         "status": "Active"
@@ -120,7 +120,7 @@ export const employees = [
         "id": 14,
         "email": "employee14@company.com",
         "name": "Employee 14",
-        "position": "Designer",
+        "position": "Ui Designer",
         "surname": "",
         "mobile": "",
         "status": "Active"
@@ -129,7 +129,7 @@ export const employees = [
         "id": 15,
         "email": "employee15@company.com",
         "name": "Employee 15",
-        "position": "Developer",
+        "position": "Front-end Devoloper",
         "surname": "",
         "mobile": "",
         "status": "Active"
@@ -138,7 +138,7 @@ export const employees = [
         "id": 16,
         "email": "employee16@company.com",
         "name": "Employee 16",
-        "position": "HR",
+        "position": "Hr",
         "surname": "",
         "mobile": "",
         "status": "Active"
@@ -165,7 +165,7 @@ export const employees = [
         "id": 19,
         "email": "employee19@company.com",
         "name": "Employee 19",
-        "position": "Designer",
+        "position": "Ui Designer",
         "surname": "",
         "mobile": "",
         "status": "Active"
@@ -174,7 +174,7 @@ export const employees = [
         "id": 20,
         "email": "employee20@company.com",
         "name": "Employee 20",
-        "position": "Developer",
+        "position": "Front-end Devoloper",
         "surname": "",
         "mobile": "",
         "status": "Active"
@@ -183,7 +183,7 @@ export const employees = [
         "id": 21,
         "email": "employee21@company.com",
         "name": "Employee 21",
-        "position": "HR",
+        "position": "Hr",
         "surname": "",
         "mobile": "",
         "status": "Active"
@@ -210,7 +210,7 @@ export const employees = [
         "id": 24,
         "email": "employee24@company.com",
         "name": "Employee 24",
-        "position": "Designer",
+        "position": "Ui Designer",
         "surname": "",
         "mobile": "",
         "status": "Active"
@@ -219,7 +219,7 @@ export const employees = [
         "id": 25,
         "email": "employee25@company.com",
         "name": "Employee 25",
-        "position": "Developer",
+        "position": "Front-end Devoloper",
         "surname": "",
         "mobile": "",
         "status": "Active"
@@ -228,7 +228,7 @@ export const employees = [
         "id": 26,
         "email": "employee26@company.com",
         "name": "Employee 26",
-        "position": "HR",
+        "position": "Hr",
         "surname": "",
         "mobile": "",
         "status": "Active"
@@ -255,7 +255,7 @@ export const employees = [
         "id": 29,
         "email": "employee29@company.com",
         "name": "Employee 29",
-        "position": "Designer",
+        "position": "Ui Designer",
         "surname": "",
         "mobile": "",
         "status": "Active"
@@ -264,7 +264,7 @@ export const employees = [
         "id": 30,
         "email": "employee30@company.com",
         "name": "Employee 30",
-        "position": "Developer",
+        "position": "Front-end Devoloper",
         "surname": "",
         "mobile": "",
         "status": "Active"
@@ -273,7 +273,7 @@ export const employees = [
         "id": 31,
         "email": "employee31@company.com",
         "name": "Employee 31",
-        "position": "HR",
+        "position": "Hr",
         "surname": "",
         "mobile": "",
         "status": "Active"
@@ -300,7 +300,7 @@ export const employees = [
         "id": 34,
         "email": "employee34@company.com",
         "name": "Employee 34",
-        "position": "Designer",
+        "position": "Ui Designer",
         "surname": "",
         "mobile": "",
         "status": "Active"
@@ -309,7 +309,7 @@ export const employees = [
         "id": 35,
         "email": "employee35@company.com",
         "name": "Employee 35",
-        "position": "Developer",
+        "position": "Front-end Devoloper",
         "surname": "",
         "mobile": "",
         "status": "Active"
@@ -318,7 +318,7 @@ export const employees = [
         "id": 36,
         "email": "employee36@company.com",
         "name": "Employee 36",
-        "position": "HR",
+        "position": "Hr",
         "surname": "",
         "mobile": "",
         "status": "Active"
@@ -345,7 +345,7 @@ export const employees = [
         "id": 39,
         "email": "employee39@company.com",
         "name": "Employee 39",
-        "position": "Designer",
+        "position": "Ui Designer",
         "surname": "",
         "mobile": "",
         "status": "Active"
@@ -354,7 +354,7 @@ export const employees = [
         "id": 40,
         "email": "employee40@company.com",
         "name": "Employee 40",
-        "position": "Developer",
+        "position": "Front-end Devoloper",
         "surname": "",
         "mobile": "",
         "status": "Active"
@@ -363,7 +363,7 @@ export const employees = [
         "id": 41,
         "email": "employee41@company.com",
         "name": "Employee 41",
-        "position": "HR",
+        "position": "Hr",
         "surname": "",
         "mobile": "",
         "status": "Active"
@@ -390,7 +390,7 @@ export const employees = [
         "id": 44,
         "email": "employee44@company.com",
         "name": "Employee 44",
-        "position": "Designer",
+        "position": "Ui Designer",
         "surname": "",
         "mobile": "",
         "status": "Active"
@@ -399,7 +399,7 @@ export const employees = [
         "id": 45,
         "email": "employee45@company.com",
         "name": "Employee 45",
-        "position": "Developer",
+        "position": "Front-end Devoloper",
         "surname": "",
         "mobile": "",
         "status": "Active"
@@ -408,7 +408,7 @@ export const employees = [
         "id": 46,
         "email": "employee46@company.com",
         "name": "Employee 46",
-        "position": "HR",
+        "position": "Hr",
         "surname": "",
         "mobile": "",
         "status": "Active"
@@ -435,7 +435,7 @@ export const employees = [
         "id": 49,
         "email": "employee49@company.com",
         "name": "Employee 49",
-        "position": "Designer",
+        "position": "Ui Designer",
         "surname": "",
         "mobile": "",
         "status": "Active"
@@ -444,7 +444,7 @@ export const employees = [
         "id": 50,
         "email": "employee50@company.com",
         "name": "Employee 50",
-        "position": "Developer",
+        "position": "Front-end Devoloper",
         "surname": "",
         "mobile": "",
         "status": "Active"
