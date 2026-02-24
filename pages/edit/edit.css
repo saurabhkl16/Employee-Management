@@ -33,12 +33,14 @@ a:hover {
 }
 
 input {
+  border: none;
+  border: 2px solid rgb(22, 149, 204);
   padding: 5px;
 }
 
 input:focus {
   outline: none;
-  outline: rgb(22, 149, 204);
+  border: 2px solid rgb(2, 104, 148);
 }
 
 button {
