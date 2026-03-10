@@ -123,25 +123,26 @@ aside {
   }
 }
 
-.employee-table {
-  max-height: 456px; /* approx 10 rows */
+table {
+  min-height: 456px;
+  max-height: 456px;
   overflow-y: auto;
   text-align: center;
+}
 
-  .material-symbols-outlined:hover {
-    cursor: pointer;
-    color: rgb(22, 149, 204);
-  }
+.material-symbols-outlined:hover {
+  cursor: pointer;
+  color: rgb(22, 149, 204);
+}
 
-  .table-primary {
-    th {
-      background-color: rgb(22, 149, 204);
-      color: white;
-    }
+.table-primary {
+  th {
+    background-color: rgb(22, 149, 204);
+    color: white;
   }
+}
 
-  thead th {
-    position: sticky;
-    top: 0;
-  }
+thead th {
+  position: sticky;
+  top: 0;
 }
